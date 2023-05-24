@@ -10,3 +10,4 @@ Start the programs and they will run until they're closed
 ### Requirements
 * SQL Server
 * .NET
+* NodeJS
