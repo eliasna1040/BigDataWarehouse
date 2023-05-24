@@ -24,8 +24,8 @@ namespace BigDataWarehouse
         {
             try
             {
-                var client = new RestClient($"{_options.Value.ApiAddress}/action/find");
-                var request = new RestRequest();
+                RestClient client = new RestClient($"{_options.Value.ApiAddress}/action/find");
+                RestRequest request = new RestRequest();
                 request.AddHeader("Content-Type", "application/json");
                 request.AddHeader("Access-Control-Request-Headers", "*");
 
